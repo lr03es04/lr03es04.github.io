@@ -4,9 +4,9 @@ Static seminar homepage for GitHub Pages. Director: Professor Slim Tayachi.
 
 ## Content and outstanding details
 
-The 88 names and ranks were transcribed from pages 5–15 of the 2025 activity report supplied by the user: 19 Corps A, 31 Corps B, 24 doctoral researchers, 10 postdoctoral researchers/equivalent staff, and 4 research master's students. Given names appear first; original spellings are retained. The member tables contain no email addresses. No upcoming talk information was supplied. Missing information is explicitly labelled, never invented.
+The 88 names and ranks were transcribed from pages 5–15 of the 2025 activity report supplied by the user: 19 Corps A, 31 Corps B, 24 doctoral researchers, 10 postdoctoral researchers/equivalent staff, and 4 research master's students. Given names appear first; original spellings are retained. The member tables contain no email addresses; the supplied mailing list now provides addresses for 73 of the 88 members. No upcoming talk information was supplied. Missing information is explicitly labelled, never invented.
 
-Professor Slim Tayachi’s email, `slimtayachi@gmail.com`, is supplied on the report’s cover page and is included. The other 87 email addresses remain to be supplied.
+Professor Slim Tayachi’s email, `slimtayachi@gmail.com`, is supplied on the report’s cover page and is included. The user-supplied mailing list adds 105 addresses, for 106 addresses across 73 members in total. Institutional addresses are listed first where available. Multiple addresses are retained as alternatives; their deliverability has not been verified. The remaining 15 members have no matching supplied address. Four spelling variants (Hnia Ben Braiek Mezlini, Saoussen Sokrani, Sirine Jbari, and Chayma Sellimi) were explicitly confirmed by the user. People outside the 88-member directory were not added.
 
 The original PDF, rendered pages, identity numbers, and financial records are not part of the website or deployment.
 
@@ -18,7 +18,7 @@ Example content structure (replace the example values with confirmed information
 
 ```json
 {
-  "emails": {"Full name exactly as listed": "confirmed@example.org"},
+  "emails": {"Full name exactly as listed": ["confirmed@example.org", "alternative@example.org"]},
   "announcements": [{"title": "Announcement title", "text": "Announcement text"}],
   "talks": [{
     "title": "Talk title",
