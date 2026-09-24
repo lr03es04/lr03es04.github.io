@@ -1,5 +1,12 @@
 {
-  "emails": {"Slim Tayachi": "slimtayachi@gmail.com"},
+  "emails": {
+    "Slim Tayachi": "slimtayachi@gmail.com",
+    "Othman Echi": [
+      "othman.echi@fst.utm.tn",
+      "othechi@yahoo.com",
+      "othman.echi@gmail.com"
+    ]
+  },
   "announcements": [],
   "talks": []
 }
