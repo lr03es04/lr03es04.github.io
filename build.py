@@ -25,7 +25,8 @@ for i, (group, rows) in enumerate(groups.items()):
                 raise ValueError(f'Invalid email for {name}')
         contact = '<br>'.join(f'<a href="mailto:{e(email)}">{e(email)}</a>' for email in emails) if emails else '<span class="missing">Not provided</span>'
         director = '<span class="role">Laboratory director</span>' if name == 'Slim Tayachi' else ''
-        entries.append(f'<tr><td>{e(name)}{director}</td><td data-label="Rank" lang="fr">{e(rank)}</td><td data-label="Email">{contact}</td></tr>')
+        rank_lang = 'fr' if rank == 'Doctorant(e)' else 'en'
+        entries.append(f'<tr><td>{e(name)}{director}</td><td data-label="Rank" lang="{rank_lang}">{e(rank)}</td><td data-label="Email">{contact}</td></tr>')
     directory.append(f'''<details class="group" {'open' if i == 0 else ''}><summary>{e(group)}<span class="count">{len(rows)}</span></summary><div class="table-wrap"><table aria-label="{e(group)}"><thead><tr><th scope="col">Full name</th><th scope="col">Rank</th><th scope="col">Email</th></tr></thead><tbody>{''.join(entries)}</tbody></table></div></details>''')
 talks = []
 for talk in content['talks']:
@@ -44,7 +45,7 @@ html = f'''<!doctype html>
 <main id="main" class="wrap"><div class="intro"><div><p class="eyebrow">Partial differential equations</p><h1>Seminar of <span>FST-PDEs Laboratory</span><span class="code">LR03ES04</span></h1><p class="subline">Faculty of mathematical, Physical and Natural Sciences of Tunis · University of Tunis El Manar</p></div><aside class="director" aria-label="Laboratory director"><span>Laboratory director</span><strong>Professor Slim Tayachi</strong></aside></div>
 <section class="seminar" aria-labelledby="next-heading"><div class="seminar-top"><h2 id="next-heading">Next seminar</h2><span class="status">{status}</span></div><dl class="facts"><div><dt>Date</dt><dd>{e(date)}</dd></div><div><dt>Time</dt><dd>{e(time)}</dd></div><div><dt>Location</dt><dd>{e(location)}</dd></div></dl></section>
 <div class="programme"><section id="talks"><div class="section-heading"><h2>Talks &amp; abstracts</h2></div>{talk_html}</section><section id="announcements"><div class="section-heading"><h2>Announcements</h2></div>{announcements}</section></div>
-<section id="members" class="members"><div class="section-heading"><h2>Laboratory members</h2><span>{sum(map(len,groups.values()))} members · 2025 directory</span></div><p class="members-note">Names and ranks from the laboratory’s 2025 activity report. Rank titles are retained in French. Unavailable email addresses are marked “Not provided”.</p>{''.join(directory)}</section></main>
+<section id="members" class="members"><div class="section-heading"><h2>Laboratory members</h2><span>{sum(map(len,groups.values()))} members · 2025 directory</span></div><p class="members-note">Names and ranks from the laboratory’s 2025 activity report. Unavailable email addresses are marked “Not provided”.</p>{''.join(directory)}</section></main>
 <footer><div class="wrap footer-inner"><p>FST-PDEs Laboratory · LR03ES04<br>Faculty of mathematical, Physical and Natural Sciences of Tunis · University of Tunis El Manar</p><p>Seminar of FST-PDEs Laboratory<br>Director: Professor Slim Tayachi</p></div></footer></body></html>'''
 (ROOT / 'index.html').write_text(html, encoding='utf-8')
 print(f'Built index.html: {sum(map(len, groups.values()))} members, {len(talks)} talks.')

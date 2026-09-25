@@ -1,10 +1,250 @@
 {
   "emails": {
-    "Slim Tayachi": "slimtayachi@gmail.com",
+    "Slim Tayachi": [
+      "slim.tayachi@fst.rnu.tn",
+      "slimtayachi@gmail.com"
+    ],
     "Othman Echi": [
       "othman.echi@fst.utm.tn",
       "othechi@yahoo.com",
       "othman.echi@gmail.com"
+    ],
+    "Lassaad Aloui": [
+      "lassaad.aloui@fst.utm.tn",
+      "lassaad.aloui@fsg.rnu.tn",
+      "lassaad_aloui2007@yahoo.fr"
+    ],
+    "Amel Atallah-Baraket": [
+      "amel.atallah-baraket@fst.utm.tn",
+      "amel.atallah@fst.rnu.tn"
+    ],
+    "Mourad Ben Slimane": [
+      "mbenslimane2000@yahoo.com"
+    ],
+    "Morched Boughariou": [
+      "morched.boughariou@fst.utm.tn",
+      "Morched.Boughariou@fst.rnu.tn",
+      "morched.boughariou@gmail.com"
+    ],
+    "Sahbi Boussandel": [
+      "sahbi.boussandel@yahoo.fr",
+      "sboussandels@gmail.com"
+    ],
+    "Mohamed Ali Hamza": [
+      "mohamedalihamza2009@gmail.com"
+    ],
+    "Mohamed Ali Jendoubi": [
+      "mohamedali.jendoubi@ipest.ucar.tn",
+      "ma.jendoubi@fsb.rnu.tn",
+      "ma.jendoubi@gmail.com"
+    ],
+    "Saoussen Kallel": [
+      "saoussen.kallel@fst.rnu.tn"
+    ],
+    "Mohamed Majdoub": [
+      "med.majdoub@gmail.com"
+    ],
+    "Noureddine Mhadhbi": [
+      "Noureddine.Mhadbi@fst.rnu.tn",
+      "noureddinemhadbi5@gmail.com"
+    ],
+    "Amor Nakouri": [
+      "nakouri_amor@yahoo.fr"
+    ],
+    "Tarek Saanouni": [
+      "Tarek.Saanouni@ipeiem.rnu.tn"
+    ],
+    "Ridha Selmi": [
+      "ridha.selmi@isi.rnu.tn",
+      "selmi_ridha@yahoo.fr",
+      "ridhaselmiridhaselmi@gmail.com"
+    ],
+    "Hamdi Zorgati": [
+      "hamdizorgati@yahoo.fr",
+      "zorgati@gmail.com"
+    ],
+    "Lanoir Addala": [
+      "lanoiraddala@gmail.com",
+      "lanoiraddala@yahoo.fr"
+    ],
+    "Mohamed Antabli": [
+      "antablimohamed1@gmail.com"
+    ],
+    "Mounir Balti": [
+      "mounir.balti@gmail.com"
+    ],
+    "Olfa Bejaoui": [
+      "olfa.bejaoui@fst.utm.tn",
+      "bjaouiolfa@yahoo.fr"
+    ],
+    "Ines Ben Ayed": [
+      "abenyed08@gmail.com"
+    ],
+    "Hnia Ben Braiek Mezlini": [
+      "hnia75@yahoo.fr"
+    ],
+    "Imen Ben Hassen": [
+      "imen_benhassen@yahoo.fr"
+    ],
+    "Byrame Ben Slimene": [
+      "byramebenslimene@yahoo.fr"
+    ],
+    "Hafedh Bousbih": [
+      "hafedh.bousbih@gmail.com"
+    ],
+    "Hedi Bouzidi": [
+      "hedi.bouzidi@fst.utm.tn"
+    ],
+    "Abdelkarim Chaabani": [
+      "chaabanikarim@gmail.com",
+      "chaabanikarim89@gmail.com"
+    ],
+    "Lassaad Chergui": [
+      "chergui.lassaad@yahoo.fr"
+    ],
+    "Najoua El Ghani-Mejri": [
+      "najouaelghani@gmail.com"
+    ],
+    "Sameh Gana-Ben Khelifa": [
+      "Sameh.Gana@fst.rnu.tn",
+      "samah_fst_06@yahoo.fr"
+    ],
+    "Radhia Ghanmi": [
+      "ghanmiradhia@gmail.com"
+    ],
+    "Malek Ghazel": [
+      "malek.ghazel@fst.utm.tn",
+      "malek_ghazel@yahoo.fr",
+      "malek.ghazel@gmail.com",
+      "m.ghazel127@gmail.com"
+    ],
+    "Jihed Hedhly": [
+      "jihed.hedhly@fst.utm.tn",
+      "hjihed@gmail.com"
+    ],
+    "Abdelwaheb Ifa": [
+      "abdelwaheb.ifa@fsm.rnu.tn"
+    ],
+    "Nejib Mahmoudi": [
+      "mahmoudinejib@yahoo.fr"
+    ],
+    "Olfa Mahouachi": [
+      "olfa.mahouachi@fst.utm.tn"
+    ],
+    "Walid Mchirgui": [
+      "walid1800@yahoo.fr"
+    ],
+    "Chokri Mechergui": [
+      "mechergui_chokri@yahoo.fr"
+    ],
+    "Omar Saidi": [
+      "saidi.omar@hotmail.fr"
+    ],
+    "Abir Sboui": [
+      "abirsboui@yahoo.fr"
+    ],
+    "Saoussen Sokrani": [
+      "saoussensakrani2012@gmail.com"
+    ],
+    "Mariem Trabelsi": [
+      "trabelsi.maryem@gmail.com"
+    ],
+    "Monia Zaabi": [
+      "mouniazaabi@gmail.com"
+    ],
+    "Chourouk Bamri": [
+      "chourouk.bamri@fst.utm.tn",
+      "chou.bamri@gmail.com"
+    ],
+    "Samia Ben Ali": [
+      "benalisamia562@gmail.com"
+    ],
+    "Rihab Ben Belgacem": [
+      "rihabbenbelgacem662@gmail.com"
+    ],
+    "Amira Ben Souissi Jabrane": [
+      "amira.bensouissi@yahoo.fr"
+    ],
+    "Noura Benmosbah": [
+      "noura.benmosbah94@gmail.com"
+    ],
+    "Wahid Bouazizi": [
+      "wahid.bouazizi@yahoo.fr",
+      "wahidbouazizi79@gmail.com"
+    ],
+    "Haythem Cheikh": [
+      "haythemcheikh8@gmail.com"
+    ],
+    "Hanen Daayeb": [
+      "daayebhanen@gmail.com"
+    ],
+    "Wided Dallegi": [
+      "Dallegi44.wd@gmail.com"
+    ],
+    "Dhouha Draouil": [
+      "douhadraouil@yahoo.fr"
+    ],
+    "Mourad Grira": [
+      "mourad.grira@fst.utm.tn",
+      "grira.mourad10@gmail.com"
+    ],
+    "Mariem Jaoued": [
+      "jaoued.mariem@gmail.com"
+    ],
+    "Sirine Jbari": [
+      "syrine-jberi@hotmail.com"
+    ],
+    "Nour El Houda Khedhiri": [
+      "nourelhouda.khedhiri@fst.utm.tn"
+    ],
+    "Ahmed Amine Louriemmi": [
+      "ahmedamine.louriemmi@etudiant-fst.utm.tn",
+      "louriemmia@gmail.com"
+    ],
+    "Marouen Mahmoud": [
+      "mahmoud.marouen@fst.utm.tn",
+      "marouen.mahmoud@etudiant-fst.utm.tn"
+    ],
+    "Hattab Mouajria": [
+      "mouajria.hattab@gmail.com"
+    ],
+    "Alia Riahi": [
+      "alia.riahi@fst.utm.tn",
+      "aliariahi14@gmail.com"
+    ],
+    "Chayma Sellimi": [
+      "chaymasellini47@gmail.com"
+    ],
+    "Leila Azem": [
+      "azemleila@yahoo.com"
+    ],
+    "Soumaya Ben Chaabane Bellili": [
+      "benchaabene@hotmail.fr"
+    ],
+    "Moez Ben Hamed": [
+      "moez.benhamed@hotmail.com",
+      "moez.benhamed@hotmail.fr"
+    ],
+    "Amel Chouichi": [
+      "chouichiamel@gmail.com"
+    ],
+    "Mounira Gharsalli": [
+      "m.gharssalli@yahoo.fr"
+    ],
+    "Rym Jrad Ben Messaoud": [
+      "rym.jrad@gmail.com"
+    ],
+    "Hanen Louati": [
+      "louatihanen42@yahoo.fr"
+    ],
+    "Anis Meddeb": [
+      "moueddeb.anis@gmail.com"
+    ],
+    "Sarah Otsmane": [
+      "sarah.osmane4@gmail.com"
+    ],
+    "Mohamed Khalil Zghal": [
+      "zghal-khalil@hotmail.fr"
     ]
   },
   "announcements": [],
