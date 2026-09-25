@@ -25,8 +25,7 @@ for i, (group, rows) in enumerate(groups.items()):
                 raise ValueError(f'Invalid email for {name}')
         contact = '<br>'.join(f'<a href="mailto:{e(email)}">{e(email)}</a>' for email in emails) if emails else '<span class="missing">Not provided</span>'
         director = '<span class="role">Laboratory director</span>' if name == 'Slim Tayachi' else ''
-        rank_lang = 'fr' if rank == 'Doctorant(e)' else 'en'
-        entries.append(f'<tr><td>{e(name)}{director}</td><td data-label="Rank" lang="{rank_lang}">{e(rank)}</td><td data-label="Email">{contact}</td></tr>')
+        entries.append(f'<tr><td>{e(name)}{director}</td><td data-label="Rank" lang="en">{e(rank)}</td><td data-label="Email">{contact}</td></tr>')
     directory.append(f'''<details class="group" {'open' if i == 0 else ''}><summary>{e(group)}<span class="count">{len(rows)}</span></summary><div class="table-wrap"><table aria-label="{e(group)}"><thead><tr><th scope="col">Full name</th><th scope="col">Rank</th><th scope="col">Email</th></tr></thead><tbody>{''.join(entries)}</tbody></table></div></details>''')
 talks = []
 for talk in content['talks']:
