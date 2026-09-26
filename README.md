@@ -12,7 +12,7 @@ The original PDF, rendered pages, identity numbers, and financial records are no
 
 ## Edit the homepage
 
-Edit `data/members.json` for names and ranks. Edit `data/content.json` for email addresses, announcements, and talks. Then run `python build.py` and commit the regenerated `index.html` along with your data changes. The deployed site has no runtime dependencies and works without JavaScript.
+Edit `data/members.json` for names and ranks. Edit `data/content.json` for email addresses, announcements, and talks. Then run `python build.py` and commit the regenerated `index.html` along with your data changes. The site works without JavaScript; its visit-counter image depends on an external service.
 
 Example content structure (replace the example values with confirmed information):
 
@@ -46,3 +46,7 @@ GitHub Pages supports public repositories on GitHub Free: https://docs.github.co
 
 Open `index.html` directly, or run `python -m http.server 8765 --bind 127.0.0.1` from this directory and visit http://127.0.0.1:8765/.
 
+
+## Visit counter
+
+The footer uses an external image from https://hitscounter.dev/ to display today's and total visits for https://lr03es04.github.io/. Counting started on 26 September 2026, including installation checks; historical traffic is unavailable. These are image-request counts, not unique people: repeat visits, caching, bots, and blockers can affect the numbers. The provider receives the image request (including the visitor's IP address); the embed sends no referrer and runs no third-party JavaScript. If the service is unavailable, the rest of the site continues to work. The counter is included in build.py so rebuilding preserves it.

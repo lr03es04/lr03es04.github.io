@@ -45,8 +45,7 @@ html = f'''<!doctype html>
 <section class="seminar" aria-labelledby="next-heading"><div class="seminar-top"><h2 id="next-heading">Next seminar</h2><span class="status">{status}</span></div><dl class="facts"><div><dt>Date</dt><dd>{e(date)}</dd></div><div><dt>Time</dt><dd>{e(time)}</dd></div><div><dt>Location</dt><dd>{e(location)}</dd></div></dl></section>
 <div class="programme"><section id="talks"><div class="section-heading"><h2>Talks &amp; abstracts</h2></div>{talk_html}</section><section id="announcements"><div class="section-heading"><h2>Announcements</h2></div>{announcements}</section></div>
 <section id="members" class="members"><div class="section-heading"><h2>Laboratory members</h2><span>{sum(map(len,groups.values()))} members · 2025 directory</span></div><p class="members-note">Names and ranks from the laboratory’s 2025 activity report. Unavailable email addresses are marked “Not provided”.</p>{''.join(directory)}</section></main>
-<footer><div class="wrap footer-inner"><p>FST-PDEs Laboratory · LR03ES04<br>Faculty of mathematical, Physical and Natural Sciences of Tunis · University of Tunis El Manar</p><p>Seminar of FST-PDEs Laboratory<br>Director: Professor Slim Tayachi</p></div></footer></body></html>'''
+<footer><div class="wrap footer-inner"><p>FST-PDEs Laboratory · LR03ES04<br>Faculty of mathematical, Physical and Natural Sciences of Tunis · University of Tunis El Manar</p><p>Seminar of FST-PDEs Laboratory<br>Director: Professor Slim Tayachi</p></div><div class="wrap" id="visitor-counter" style="margin-top:20px"><p><strong>Website visits</strong></p><img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Flr03es04.github.io%2F&amp;label=Visits&amp;icon=people-fill&amp;color=%23142d40" alt="Visit counter unavailable" height="20" referrerpolicy="no-referrer" style="display:block;max-width:100%;margin:8px 0"><p><small>Today / total · Since 26 September 2026 · Repeat visits may be counted.</small></p></div></footer></body></html>'''
 (ROOT / 'index.html').write_text(html, encoding='utf-8')
 print(f'Built index.html: {sum(map(len, groups.values()))} members, {len(talks)} talks.')
-
-
+
