@@ -31,7 +31,17 @@ talks = []
 for talk in content['talks']:
     talks.append(f'''<article class="talk"><h3>{e(talk['title'])}</h3><p>{e(talk['speaker'])}</p><p class="meta">{e(talk['date'])} · {e(talk['time'])}<br>{e(talk['location'])}</p><details><summary>Read abstract</summary><p class="abstract">{e(talk['abstract'])}</p></details></article>''')
 talk_html = ''.join(talks) or '<div class="empty"><strong>Programme to be announced</strong><p>Talk titles, speakers, and abstracts will be published here when confirmed.</p></div>'
-announcements = ''.join(f'<article class="announcement"><h3>{e(a["title"])}</h3><p>{e(a["text"])}</p></article>' for a in content['announcements']) or '<div class="empty"><strong>No announcements yet</strong><p>Seminar news and programme updates will appear here.</p></div>'
+announcement_items = []
+for a in content['announcements']:
+    link = ''
+    if a.get('url'):
+        from urllib.parse import urlsplit
+        parsed = urlsplit(a['url'])
+        if parsed.scheme not in ('https', 'http') or not parsed.netloc:
+            raise ValueError('Announcement URL must be an absolute HTTP(S) URL')
+        link = f'<p style="margin-top:12px"><a href="{e(a["url"])}">{e(a.get("link_label", "More information"))}</a></p>'
+    announcement_items.append(f'<article class="announcement"><h3>{e(a["title"])}</h3><p>{e(a["text"])}</p>{link}</article>')
+announcements = ''.join(announcement_items) or '<div class="empty"><strong>No announcements yet</strong><p>Seminar news and programme updates will appear here.</p></div>'
 next_talk = content['talks'][0] if content['talks'] else {}
 date = next_talk.get('date') or 'To be announced'
 time = next_talk.get('time') or 'To be announced'
