@@ -1,25 +1,240 @@
 [
-  {"group":"Faculty · (Associate and full professors)","rank":"Professor (Full)","names":["Lassaad Aloui","Amel Atallah-Baraket","Mourad Ben Slimane","Morched Boughariou"]},
-  {"group":"Faculty · (Associate and full professors)","rank":"Associate professor","names":["Sahbi Boussandel"]},
-  {"group":"Faculty · (Associate and full professors)","rank":"Professor (Full)","names":["Othman Echi","Mohamed Ali Hamza","Slim Ibrahim","Mohamed Ali Jendoubi","Saoussen Kallel","Mohamed Majdoub","Noureddine Mhadhbi","Amor Nakouri","Tarek Saanouni"]},
-  {"group":"Faculty · (Associate and full professors)","rank":"Associate professor","names":["Ridha Selmi"]},
-  {"group":"Faculty · (Associate and full professors)","rank":"Professor (Full)","names":["Slim Tayachi","Hamdi Zorgati"]},
-  {"group":"Faculty · (Lecturers and assitant professors)","rank":"Lecturer","names":["Lanoir Addala"]},
-  {"group":"Faculty · (Lecturers and assitant professors)","rank":"Assistant professor","names":["Mohamed Antabli","Mounir Balti","Olfa Bejaoui","Ines Ben Ayed","Hnia Ben Braiek Mezlini","Imen Ben Hassen"]},
-  {"group":"Faculty · (Lecturers and assitant professors)","rank":"Lecturer","names":["Byrame Ben Slimene"]},
-  {"group":"Faculty · (Lecturers and assitant professors)","rank":"Assistant professor","names":["Hafedh Bousbih","Hedi Bouzidi"]},
-  {"group":"Faculty · (Lecturers and assitant professors)","rank":"Lecturer","names":["Abdelkarim Chaabani"]},
-  {"group":"Faculty · (Lecturers and assitant professors)","rank":"Assistant professor","names":["Lassaad Chergui","Najoua El Ghani-Mejri","Cyrine Fitouri-Ayari","Sameh Gana-Ben Khelifa","Sana Gasmi-Messaoudi","Radhia Ghanmi","Malek Ghazel","Jihed Hedhly"]},
-  {"group":"Faculty · (Lecturers and assitant professors)","rank":"Lecturer","names":["Abdelwaheb Ifa"]},
-  {"group":"Faculty · (Lecturers and assitant professors)","rank":"Assistant professor","names":["Nejib Mahmoudi","Olfa Mahouachi","Walid Mchirgui","Chokri Mechergui"]},
-  {"group":"Faculty · (Lecturers and assitant professors)","rank":"Lecturer","names":["Rim Nasfi-Ahmed","Sami Rezgui"]},
-  {"group":"Faculty · (Lecturers and assitant professors)","rank":"Assistant professor","names":["Omar Saidi"]},
-  {"group":"Faculty · (Lecturers and assitant professors)","rank":"Lecturer","names":["Abir Sboui"]},
-  {"group":"Faculty · (Lecturers and assitant professors)","rank":"Assistant professor","names":["Saoussen Sokrani","Mariem Trabelsi"]},
-  {"group":"Faculty · (Lecturers and assitant professors)","rank":"Lecturer","names":["Monia Zaabi"]},
-  {"group":"Doctoral researchers","rank":"PhD student","names":["Chourouk Bamri","Samia Ben Ali","Rihab Ben Belgacem","Amira Ben Souissi Jabrane","Noura Benmosbah","Wahid Bouazizi","Haythem Cheikh","Hanen Daayeb","Wided Dallegi","Dhouha Draouil","Hafedh Fadhlaoui","Nejia Fezai","Mourad Grira","Imen Hajri","Mohammad Hamad","Mariem Jaoued","Sirine Jbari","Nour El Houda Khedhiri","Ahmed Amine Louriemmi","Marouen Mahmoud","Hattab Mouajria","Hayet Nafti","Alia Riahi","Chayma Sellimi"]},
-  {"group":"Postdoctoral researchers & equivalent staff","rank":"Post Doc","names":["Leila Azem","Soumaya Ben Chaabane Bellili","Moez Ben Hamed","Amel Chouichi","Mounira Gharsalli","Rym Jrad Ben Messaoud","Hanen Louati"]},
-  {"group":"Postdoctoral researchers & equivalent staff","rank":"Highschool teacher","names":["Anis Meddeb"]},
-  {"group":"Postdoctoral researchers & equivalent staff","rank":"Post Doc","names":["Sarah Otsmane","Mohamed Khalil Zghal"]},
-  {"group":"Research master’s students","rank":"MSc Student","names":["Islem Ben Tita","Imen Maiza","Abir Mansour","Souha Soltani"]}
+  {
+    "group": "Faculty · (Associate and full professors)",
+    "rank": "Professor (Full)",
+    "names": [
+      "Lassaad Aloui",
+      "Amel Atallah-Baraket",
+      "Mourad Ben Slimane",
+      "Morched Boughariou"
+    ]
+  },
+  {
+    "group": "Faculty · (Associate and full professors)",
+    "rank": "Associate professor",
+    "names": [
+      "Sahbi Boussandel"
+    ]
+  },
+  {
+    "group": "Faculty · (Associate and full professors)",
+    "rank": "Professor (Full)",
+    "names": [
+      "Othman Echi",
+      "Mohamed Ali Hamza",
+      "Slim Ibrahim",
+      "Mohamed Ali Jendoubi",
+      "Saoussen Kallel"
+    ]
+  },
+  {
+    "group": "Faculty · (Associate and full professors)",
+    "rank": "Associate professor",
+    "names": [
+      "Salah Khardani"
+    ]
+  },
+  {
+    "group": "Faculty · (Associate and full professors)",
+    "rank": "Professor (Full)",
+    "names": [
+      "Mohamed Majdoub",
+      "Noureddine Mhadhbi",
+      "Amor Nakouri",
+      "Tarek Saanouni"
+    ]
+  },
+  {
+    "group": "Faculty · (Associate and full professors)",
+    "rank": "Associate professor",
+    "names": [
+      "Ridha Selmi"
+    ]
+  },
+  {
+    "group": "Faculty · (Associate and full professors)",
+    "rank": "Professor (Full)",
+    "names": [
+      "Slim Tayachi",
+      "Hamdi Zorgati"
+    ]
+  },
+  {
+    "group": "Faculty · (Lecturers and assitant professors)",
+    "rank": "Lecturer",
+    "names": [
+      "Lanoir Addala"
+    ]
+  },
+  {
+    "group": "Faculty · (Lecturers and assitant professors)",
+    "rank": "Assistant professor",
+    "names": [
+      "Mohamed Antabli",
+      "Mounir Balti",
+      "Olfa Bejaoui",
+      "Ines Ben Ayed",
+      "Hnia Ben Braiek Mezlini",
+      "Imen Ben Hassen"
+    ]
+  },
+  {
+    "group": "Faculty · (Lecturers and assitant professors)",
+    "rank": "Lecturer",
+    "names": [
+      "Byrame Ben Slimene"
+    ]
+  },
+  {
+    "group": "Faculty · (Lecturers and assitant professors)",
+    "rank": "Assistant professor",
+    "names": [
+      "Hafedh Bousbih",
+      "Walid Boughamda",
+      "Hedi Bouzidi"
+    ]
+  },
+  {
+    "group": "Faculty · (Lecturers and assitant professors)",
+    "rank": "Lecturer",
+    "names": [
+      "Abdelkarim Chaabani"
+    ]
+  },
+  {
+    "group": "Faculty · (Lecturers and assitant professors)",
+    "rank": "Assistant professor",
+    "names": [
+      "Lassaad Chergui",
+      "Najoua El Ghani-Mejri",
+      "Cyrine Fitouri-Ayari",
+      "Sameh Gana-Ben Khelifa",
+      "Sana Gasmi-Messaoudi",
+      "Radhia Ghanmi",
+      "Malek Ghazel",
+      "Jihed Hedhly"
+    ]
+  },
+  {
+    "group": "Faculty · (Lecturers and assitant professors)",
+    "rank": "Lecturer",
+    "names": [
+      "Abdelwaheb Ifa"
+    ]
+  },
+  {
+    "group": "Faculty · (Lecturers and assitant professors)",
+    "rank": "Assistant professor",
+    "names": [
+      "Nejib Mahmoudi",
+      "Olfa Mahouachi",
+      "Walid Mchirgui",
+      "Chokri Mechergui"
+    ]
+  },
+  {
+    "group": "Faculty · (Lecturers and assitant professors)",
+    "rank": "Lecturer",
+    "names": [
+      "Rim Nasfi-Ahmed",
+      "Sami Rezgui"
+    ]
+  },
+  {
+    "group": "Faculty · (Lecturers and assitant professors)",
+    "rank": "Assistant professor",
+    "names": [
+      "Omar Saidi"
+    ]
+  },
+  {
+    "group": "Faculty · (Lecturers and assitant professors)",
+    "rank": "Lecturer",
+    "names": [
+      "Abir Sboui"
+    ]
+  },
+  {
+    "group": "Faculty · (Lecturers and assitant professors)",
+    "rank": "Assistant professor",
+    "names": [
+      "Saoussen Sokrani",
+      "Mariem Trabelsi"
+    ]
+  },
+  {
+    "group": "Faculty · (Lecturers and assitant professors)",
+    "rank": "Lecturer",
+    "names": [
+      "Monia Zaabi"
+    ]
+  },
+  {
+    "group": "Doctoral researchers",
+    "rank": "PhD student",
+    "names": [
+      "Chourouk Bamri",
+      "Samia Ben Ali",
+      "Rihab Ben Belgacem",
+      "Amira Ben Souissi Jabrane",
+      "Noura Benmosbah",
+      "Wahid Bouazizi",
+      "Haythem Cheikh",
+      "Hanen Daayeb",
+      "Wided Dallegi",
+      "Dhouha Draouil",
+      "Hafedh Fadhlaoui",
+      "Nejia Fezai",
+      "Mourad Grira",
+      "Imen Hajri",
+      "Mohammad Hamad",
+      "Mariem Jaoued",
+      "Sirine Jbari",
+      "Nour El Houda Khedhiri",
+      "Ahmed Amine Louriemmi",
+      "Marouen Mahmoud",
+      "Hattab Mouajria",
+      "Hayet Nafti",
+      "Alia Riahi",
+      "Chayma Sellimi"
+    ]
+  },
+  {
+    "group": "Postdoctoral researchers & equivalent staff",
+    "rank": "Post Doc",
+    "names": [
+      "Leila Azem",
+      "Soumaya Ben Chaabane Bellili",
+      "Moez Ben Hamed",
+      "Amel Chouichi",
+      "Mounira Gharsalli",
+      "Rym Jrad Ben Messaoud",
+      "Hanen Louati"
+    ]
+  },
+  {
+    "group": "Postdoctoral researchers & equivalent staff",
+    "rank": "Highschool teacher",
+    "names": [
+      "Anis Meddeb"
+    ]
+  },
+  {
+    "group": "Postdoctoral researchers & equivalent staff",
+    "rank": "Post Doc",
+    "names": [
+      "Sarah Otsmane",
+      "Mohamed Khalil Zghal"
+    ]
+  },
+  {
+    "group": "Research master’s students",
+    "rank": "MSc Student",
+    "names": [
+      "Islem Ben Tita",
+      "Imen Maiza",
+      "Abir Mansour",
+      "Souha Soltani"
+    ]
+  }
 ]
