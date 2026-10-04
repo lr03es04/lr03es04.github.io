@@ -255,11 +255,24 @@
   },
   "announcements": [
     {
+      "title": "Next seminar · 8 October 2026",
+      "text": "Othman Echi (University of Tunis El-Manar) will speak on “Chronology Violation on Locally Finite Quasiordered Sets” at 11:00 (Tunis time).\nVenue: New seminar room, Department of Mathematics, Faculty of Sciences of Tunis.\nOrganizers: Walid Boughamda and Slim Tayachi.\nContact: walid.boughamda@fst.utm.tn"
+    },
+    {
       "title": "14th Euro-Maghrebian Workshop on Evolution Equations",
       "text": "30 September – 4 October 2026 · Yadis Hammamet, Hammamet, Tunisia.\nMini-courses and invited talks on evolution equations. Professors Slim Tayachi and Mohamed Ali Jendoubi are members of the organizing committee.",
       "url": "https://pdesdipmatunisa.com/14th-euro-maghrebian-workshops-on-evolution-equations/",
       "link_label": "Workshop website, programme and registration"
     }
   ],
-  "talks": []
+  "talks": [
+    {
+      "title": "Chronology Violation on Locally Finite Quasiordered Sets",
+      "speaker": "Othman Echi · University of Tunis El-Manar",
+      "date": "Thursday, 8 October 2026",
+      "time": "11:00 (Tunis time)",
+      "location": "New seminar room, Department of Mathematics, Faculty of Sciences of Tunis",
+      "abstract": "Abstract not provided in the seminar announcement."
+    }
+  ]
 }
